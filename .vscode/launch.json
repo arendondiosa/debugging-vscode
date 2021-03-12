@@ -5,6 +5,16 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Python: Django",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/django_app/manage.py",
+            "args": [
+                "runserver"
+            ],
+            "django": true,
+        },
+        {
             "name": "Python: Flask",
             "type": "python",
             "request": "launch",
