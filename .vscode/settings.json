@@ -1,0 +1,18 @@
+{
+    "python.testing.nosetestArgs": [
+        "scripts"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": true,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./flask_app",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.pytestArgs": [
+        "flask_app"
+    ]
+}
