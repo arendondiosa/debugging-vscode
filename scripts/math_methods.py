@@ -9,7 +9,3 @@ def add(num1, num2):
 
 def divide(numerator, denominator):
     return numerator / denominator
-
-
-add(5, 8)
-divide(1, 1)
