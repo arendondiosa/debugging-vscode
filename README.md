@@ -36,11 +36,23 @@ Expected output: The application is running on port 5000
 
 ### Django app
 
+Before execute the application, it's necessary to update the migrations
+
+```bash
+cd django_app
+python manage.py migrate
+```
+
+Create an Admin user
+
+```bash
+python manage.py createsuperuser
+```
+
 Execute the application using Django
 
 
 ```bash
-cd django_app
 python manage.py runserver
 ```
 
